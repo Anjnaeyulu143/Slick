@@ -1,0 +1,15 @@
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next{
+    background-color: green;
+}
+.custom-indicator{
+    bottom: -65px;
+}
+.custom-indicator li{
+    width: 30px;
+    height: 30px;
+    filter: grayscale(100%)
+}
+.custom-indicator li.slick-active{
+    filter: grayscale(0%);
+}
